@@ -4,6 +4,7 @@
     "npm": "10.2.4"
   },
   "dependencies": {
+    "@aws-cdk/integ-runner": "^2.131.0-alpha.0",
     "aws-cdk": "2.130.0",
     "cdk-dia": "0.10.0"
   }

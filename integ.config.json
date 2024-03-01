@@ -1,0 +1,8 @@
+{
+    "parallelRegions": [
+      "ap-northeast-1"
+    ],
+    "directory": "integ_tests",
+    "inspect-failures": true,
+    "update-on-failed": true
+}

@@ -10,6 +10,12 @@ make-dia: synth
 
 # CDK
 
+integ-runner:
+	CDK_INTEG_RUNNER_CWD=$(PWD) && npx integ-runner
+
+integ-runner-debug:
+	CDK_INTEG_RUNNER_CWD=$(PWD) && npx integ-runner --no-clean --verbose --update-on-failed
+
 synth:
 	npx cdk -a "python3 app.py" synth
 
